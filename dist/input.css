@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.propic-home{
+    @apply block  w-full  mx-auto lg:mx-0 lg:w-1/2 lg:absolute lg:h-screen right-0;
+}
+.propic-other{
+    @apply w-[250px] h-[250px];
+}
+.link-border{
+    @apply hover:border-b-2 hover:border-light hover:mb-[-4px] hover:pb-[2px];
+}
+.campus{
+    @apply text-3xl 2xl:text-7xl font-semibold text-primary;
+}
+.text-edu{
+    @apply absolute left-0 right-0 bottom-0 px-5 lg:px-24 py-1 lg:py-6 bg-white bg-opacity-80 rounded-t-3xl;
+}
+.faculty{
+    @apply my-1 lg:my-3 text-lg lg:text-2xl;
+}
+.btn-edu{
+    @apply w-10 drop-shadow-xl transition-all duration-200 ease-in-out hover:w-12 hover:mx-[-5px];
+}
+.dld-btn{
+    @apply border-2 border-primary px-6 py-1 rounded-lg transition-all duration-300 ease-in-out hover:bg-primary hover:text-light hover:shadow-xl flex justify-center items-center;
+}
