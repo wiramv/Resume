@@ -3,7 +3,7 @@ import NaviMenus from "./subComponent/NaviMenus";
 
 const DownloadPage = () => {
     return ( 
-        <div className="download__page flex">
+        <div className="download__page md:flex">
             <NaviMenus/>
             <Download/>
         </div>
