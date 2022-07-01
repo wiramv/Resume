@@ -10,7 +10,7 @@ const Download = () => {
                 Download
             </div>
 
-            <fieldset className="border-2 rounded-lg p-10 w-5/6 mx-auto h-3/6 grid grid-cols-3 gap-4 border-primary">
+            <fieldset className="border-2 rounded-lg p-1 md:p-10 w-5/6 mx-auto h-3/6 grid grid-cols-3 gap-4 border-primary">
                 <legend className="px-5">Download Document</legend>
                 <a href={cv} class="dld-btn">Wira's Resume</a>
                 <a href={mitrais} class="dld-btn">Mitrais cover Letter</a>
